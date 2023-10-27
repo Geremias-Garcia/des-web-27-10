@@ -1,0 +1,79 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+.cor-primaria {
+  color: var(--primary);
+}
+
+.cor-secundaria {
+  color: var(--dark);
+}
+
+.nav-link:hover {
+  color: var(--dark);
+}
+
+.btn-custom-background {
+  padding: 10px 30px;
+
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.btn-custom-background:hover{
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.secao-1 {
+  margin: 20px;
+}
+
+.card-img-top {
+  width: 50%;
+  height: auto;
+}
+
+.card {
+  width: 15rem; 
+  align-items: center;
+  padding: 30px;
+  border: 2px solid var(--primary);
+}
+
+.card-body {
+  color: var(--dark);
+}
+
+.card-text {
+  color: var(--primary);
+}
+
+.texto {
+  padding: 50px;
+}
+
+.card-text-sec2 {
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.card-sec2 {
+  width: 25rem;
+  background-color: var(--light);
+}
+
+.adress-cinza {
+  color: gray;
+}
+
+
+
+
+
+
+/*Fonte: Heebo*/
